@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  color: white;
+  background: black;
+}
+.buffs {
+  color: #FF9346;
+}
+#metabar {
+  height: 0;
+  opacity: 0;
+  transition: opacity .8s, height .45s;
+  pointer-events: none;
+}
+#metabar.shown {
+  height: 1em;
+  opacity: 1;
+  pointer-events: auto;
+}
+#ascendbar {
+  opacity: 0;
+  transition: opacity .8s;
+  pointer-events: none;
+  cursor: pointer;
+}
+#ascendbar.shown {
+  opacity: 1;
+  pointer-events: auto;
+}
