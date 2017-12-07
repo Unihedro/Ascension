@@ -37,6 +37,8 @@ function doAscend() {
 
 // Reincarnations
 
+// Microtransactions
+
 // Business logic
 function drawOnce() {
   data.meta && document.getElementById("metabar").classList.add("shown");
